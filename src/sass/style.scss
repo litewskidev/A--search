@@ -1,0 +1,27 @@
+#grid {
+  position: relative;
+  left: 50%;
+  margin-top: 500px;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.square {
+  cursor: pointer;
+  border: 2px solid #000000f0;
+  filter: drop-shadow(0.1rem 0.1rem 0.3rem rgba(0, 0, 0, 1));
+}
+
+.closed {
+  background: rgb(184, 0, 0);
+}
+
+.open {
+  background: blue;
+}
+
+.path {
+  background: rgb(0, 214, 0);
+}
